@@ -6,6 +6,7 @@
 
 .profile_header h1 {
   font-size: 18px;
+  color: var(--white);
 }
 
 .profile_location {
@@ -15,7 +16,6 @@
 
 .profile_biography {
   font-size: 14px;
-  color: var(--social-white);
 }
 
 .profile_actions {

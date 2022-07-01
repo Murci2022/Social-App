@@ -8,8 +8,8 @@
 }
 
 body {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--dark-black);
+  color: var(--light-white);
 }
 
 :root {
