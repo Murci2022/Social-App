@@ -12,3 +12,8 @@
   font-size: 14px;
   color: var(--light-gray);
 }
+
+.profile_biography {
+  font-size: 14px;
+  color: var(--social-white);
+}
