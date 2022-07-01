@@ -17,6 +17,25 @@
   border-radius: 10%;
 }
 
+.pic-icon1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: solid 2px var(--social-pink);
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+}
+
+.div-container {
+  position: relative;
+}
+
+/*
+
+https://www.webdesignerdepot.com/2014/04/3-stunning-css-animation-effects-that-will-captivate-your-users/
+
+
 _.pic-icon {
   height: 40px;
   width: 40px;
@@ -37,17 +56,4 @@ _.slider-icons {
   padding-right: 10px;
   gap: 10px;
 }
-
-.div-container {
-  position: relative;
-}
-
-.pic-icon1 {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  border: solid 2px var(--social-pink);
-  position: absolute;
-  bottom: 15px;
-  left: 30px;
-}
+*/
