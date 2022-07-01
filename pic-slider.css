@@ -1,0 +1,6 @@
+.pic-slider {
+  background: var(--black);
+  height: 200px;
+  width: 100vw;
+  border: solid 1px red;
+}
