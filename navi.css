@@ -1,0 +1,41 @@
+.nav {
+  background-color: var(--black);
+  _height: 80px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 28px;
+  align-items: center;
+}
+.nav-item {
+  padding-top: 10px;
+}
+.filter-gray {
+  filter: invert(48%) sepia(7%) saturate(166%) hue-rotate(177deg)
+    brightness(92%) contrast(93%);
+}
+.filter-white {
+  filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(338deg) brightness(101%)
+    contrast(104%);
+}
+
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: var(--social-pink);
+  /*var(--gradient);*/
+  border-radius: 50%;
+  font-size: 1.7rem;
+  color: white;
+}
+.nav-item:hover {
+  filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(338deg) brightness(101%)
+    contrast(104%);
+}
