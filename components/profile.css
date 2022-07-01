@@ -32,4 +32,5 @@ button {
   padding: 6px 32px;
   border: 1px solid #727477;
   border-radius: 30px;
+  color: var(--white);
 }
