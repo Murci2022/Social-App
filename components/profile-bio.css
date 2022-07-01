@@ -1,0 +1,13 @@
+.profile_header h1 {
+  font-size: 18px;
+  color: var(--white);
+}
+
+.profile_location {
+  font-size: 14px;
+  color: var(--light-gray);
+}
+
+.profile_description {
+  font-size: 14px;
+}
