@@ -26,3 +26,10 @@
   font-size: 14px;
   justify-content: space-evenly;
 }
+
+button {
+  background-color: var(--dark-black);
+  padding: 6px 32px;
+  border: 1px solid #727477;
+  border-radius: 30px;
+}
