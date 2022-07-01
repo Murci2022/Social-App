@@ -9,3 +9,12 @@
   align-items: center;
   gap: 5px;
 }
+
+.profile_header_img {
+  position: absolute;
+  z-index: -1;
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
