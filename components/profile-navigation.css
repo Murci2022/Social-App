@@ -1,0 +1,13 @@
+.profile_nav {
+  width: 100%;
+}
+
+.profile_navlist {
+  width: 100%;
+  list-style: none;
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  justify-content: space-around;
+}

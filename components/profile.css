@@ -1,61 +1,10 @@
+@import url(./profile-bio.css);
+@import url(./profile-action.css);
+@import url(./profile-navigation.css);
+
 .profile_header {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
-}
-
-.profile_header h1 {
-  font-size: 18px;
-  color: var(--white);
-}
-
-.profile_location {
-  font-size: 14px;
-  color: var(--light-gray);
-}
-
-.profile_biography {
-  font-size: 14px;
-}
-
-.profile_actions {
-  width: 100%;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  font-size: 14px;
-  justify-content: space-around;
-  color: var(--white);
-  margin: 10px 0;
-}
-
-.profile_actions_info {
-  width: 60px;
-}
-
-.light-grey {
-  color: var(--light-gray);
-}
-
-button {
-  background-color: var(--dark-black);
-  padding: 6px 32px;
-  border: 1px solid var(--light-gray);
-  border-radius: 30px;
-  color: var(--white);
-}
-
-.profile_nav {
-  width: 100%;
-}
-
-.profile_navlist {
-  width: 100%;
-  list-style: none;
-  color: var(--white);
-  display: flex;
-  flex-direction: row;
-  font-size: 14px;
-  justify-content: space-around;
 }
