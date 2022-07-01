@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5px;
 }
 
 .profile_header h1 {
@@ -26,6 +27,7 @@
   font-size: 14px;
   justify-content: space-around;
   color: var(--white);
+  margin: 10px 0;
 }
 
 .profile_actions_info {
