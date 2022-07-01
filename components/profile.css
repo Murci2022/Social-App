@@ -17,3 +17,12 @@
   font-size: 14px;
   color: var(--social-white);
 }
+
+.profile_actions {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  justify-content: space-evenly;
+}
