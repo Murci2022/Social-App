@@ -1,4 +1,4 @@
-.pic-slider {
+.slider {
   background: var(--black);
   height: 200px;
   width: 100vw;
@@ -8,6 +8,7 @@
   padding-left: 25px;
   padding-right: 10px;
   gap: 10px;
+  align-items: center;
 }
 
 .slider-pics {
@@ -16,7 +17,7 @@
   border-radius: 10%;
 }
 
-.pic-icon {
+_.pic-icon {
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -28,11 +29,25 @@
   z-index: 10;
 }
 
-.slider-icons {
+_.slider-icons {
   display: flex;
   justify-content: space-between;
   gap: 10px;
   padding-left: 25px;
   padding-right: 10px;
   gap: 10px;
+}
+
+.div-container {
+  position: relative;
+}
+
+.pic-icon1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: solid 2px var(--social-pink);
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
 }
