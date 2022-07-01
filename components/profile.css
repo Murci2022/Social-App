@@ -12,9 +12,31 @@
 
 .profile_header_img {
   position: absolute;
-  z-index: -1;
   height: 160px;
   width: 100%;
   object-fit: cover;
   object-position: top center;
+  z-index: -1;
+}
+
+.profile_message_icon {
+  position: absolute;
+  background-color: var(--light-white);
+  top: 60px;
+  right: 20px;
+  border: 1px solid var(--gray);
+  border-radius: 32px;
+  padding: 3px;
+  filter: invert(100%);
+}
+
+.profile_bookmark_icon {
+  position: absolute;
+  background-color: var(--light-white);
+  top: 110px;
+  right: 20px;
+  border: 1px solid var(--gray);
+  border-radius: 32px;
+  padding: 3px;
+  filter: invert(100%);
 }
