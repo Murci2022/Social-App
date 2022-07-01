@@ -4,3 +4,26 @@
   width: 100vw;
   border: solid 1px red;
 }
+
+.slider-pics {
+  height: 140px;
+  width: 100px;
+  border-radius: 10%;
+  margin-top: 24px;
+  margin-left: 24px;
+  position: relative;
+  _display: flex;
+}
+
+.pic-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: solid 2px var(--social-pink);
+  position: absolute;
+  left: center;
+  top: 200px;
+  left: 50px;
+  _display: flex;
+  _justify-content: center;
+}
