@@ -23,10 +23,17 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 30px;
   font-size: 14px;
-  justify-content: space-evenly;
+  justify-content: space-around;
   color: var(--white);
+}
+
+.profile_actions_info {
+  width: 60px;
+}
+
+.light-grey {
+  color: var(--light-gray);
 }
 
 button {
