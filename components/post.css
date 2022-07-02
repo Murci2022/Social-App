@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--light-gray);
+}
+/* __________________FEED_________________ */
+
+.posts {
+  /* RIDGE */
+  border: 5px ridge rgb(128, 47, 47);
+  background-color: var(--white);
+  height: 100vh;
+
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* _______________POST_CONTAINER_________________ */
+
+.post-container {
+  /* DASHED */
+  border: 3px dashed black;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* ________________________HEAD_____________________ */
+
+.head {
+  /* DOTTED */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 3px dotted red;
+  width: 370px;
+  /* height: 300px; */
+  background-color: transparent;
+}
+
+.profile {
+  /* background-color: var(--light-gray); */
+  border: 1px double black;
+}
+
+.name-card {
+  padding-left: 10px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+#avatar-portre {
+  display: flex;
+  /* align-items: center; */
+  justify-items: center;
+  border: 1px dotted black;
+  width: 3rem;
+  height: 3rem;
+}
+
+.status {
+  color: var(--black);
+}
+
+.icon-dots-vertical {
+  /* height: 100px; */
+  /* background-color: var(--light-gray); */
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.icons {
+  display: flex;
+}
