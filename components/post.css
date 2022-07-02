@@ -24,9 +24,10 @@ body {
   border: 3px dashed black;
   width: 400px;
   height: 500px;
+
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* ________________________HEAD_____________________ */
@@ -84,3 +85,7 @@ body {
 .icons {
   display: flex;
 }
+
+/* -------------------MAIN----------------------------------------- */
+
+/* __________________________________FOOTER________________________________ */
