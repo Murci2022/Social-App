@@ -20,10 +20,12 @@ body {
 /* _______________POST_CONTAINER_________________ */
 
 .post-container {
+  position: relative;
   /* DASHED */
   border: 3px dashed black;
   width: 400px;
   height: 500px;
+  padding: 20px 20px;
 
   display: flex;
   flex-direction: column;
@@ -39,7 +41,7 @@ body {
   align-items: center;
 
   border: 3px dotted red;
-  width: 370px;
+  min-width: 360px;
   /* height: 300px; */
   background-color: transparent;
 }
@@ -82,10 +84,36 @@ body {
   border: 1px solid black;
 }
 
-.icons {
-  display: flex;
+/* -------------------MAIN TEXT----------------------------------------- */
+.main-text {
+  border: 2px double black;
+  margin-top: 40px;
 }
 
-/* -------------------MAIN----------------------------------------- */
+.quote {
+  margin-top: ;
+  border: 2px dotted black;
+  text-align: left;
+}
 
 /* __________________________________FOOTER________________________________ */
+
+.foot {
+  position: absolute;
+  bottom: 0;
+  /* ---DASHED-- */
+  border: 2px dashed black;
+  display: flex;
+  justify-content: space-between;
+
+  min-width: 360px;
+}
+
+.foot-leftside {
+  border: 1px solid black;
+}
+
+.foot-rightside {
+  display: inline-block;
+  border: 1px dotted black;
+}
