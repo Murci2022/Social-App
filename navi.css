@@ -17,11 +17,12 @@
 .nav-item {
   padding-top: 10px;
 }
+
 .filter-gray {
   filter: invert(48%) sepia(7%) saturate(166%) hue-rotate(177deg)
     brightness(92%) contrast(93%);
 }
-.filter-white {
+.filter-white, .nav-item:hover {
   filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(338deg) brightness(101%)
     contrast(104%);
 }
@@ -35,7 +36,4 @@
   font-size: 1.7rem;
   color: white;
 }
-.nav-item:hover {
-  filter: invert(98%) sepia(2%) saturate(9%) hue-rotate(338deg) brightness(101%)
-    contrast(104%);
-}
+
