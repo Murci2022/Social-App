@@ -8,8 +8,11 @@
 }
 
 body {
-  background-color: var(--dark-black);
+  background-color: var(--black);
   color: var(--light-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 :root {
