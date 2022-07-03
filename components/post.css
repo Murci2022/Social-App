@@ -26,7 +26,7 @@
 
 .post-container {
   /* DASHED */
-  background-color: var(--dark-black);
+  background-color: var(--social-blue);
   border-top: 1px solid rgb(93, 93, 93);
   width: 400px;
 
@@ -79,7 +79,7 @@
 
 .avatar-name {
   color: var(--white);
-  font-weight: bold;
+  font-weight: 300;
 }
 
 .status {
@@ -98,11 +98,12 @@
 /* -------------------MAIN TEXT----------------------------------------- */
 .main-text {
   border: 2px double black;
-  margin: 40px 20px;
+  margin: 20px 20px;
   width: 360px;
 }
 
 .text {
+  line-height: 1.8rem;
   font-weight: 300;
 }
 
@@ -110,6 +111,10 @@
   margin-top: 0;
   border: 2px dotted black;
   text-align: left;
+}
+
+#quote-text {
+  font-family: "Abhaya Libre", serif;
 }
 
 /* ------------------------------MAIN IMAGE--------------------------------- */
@@ -133,7 +138,7 @@
 
 .foot {
   /* DOTTED */
-  margin: 20px 0;
+  margin: 5px 0;
 
   bottom: 0;
 
@@ -189,7 +194,7 @@ img {
 }
 
 p {
-  color: var(--light-gray);
+  color: var(--social-white);
   border: 1px solid black;
 }
 
