@@ -1,0 +1,32 @@
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-left: 30px;
+  background: var(--black);
+  color: var(--white);
+  height: auto;
+  width: 100vw;
+  height: 20vh;
+}
+
+.search__bar {
+  height: 50px;
+  width: 800px;
+  border-radius: 20px;
+  text-align: left;
+  padding: 15px;
+  background: var(--gray);
+  font-size: 15px;
+  padding-top: 13px;
+}
+
+.search__icon {
+  position: absolute;
+  top: 52px;
+  right: 25px;
+  filter: invert(45%) sepia(8%) saturate(147%) hue-rotate(177deg)
+    brightness(97%) contrast(90%);
+}
