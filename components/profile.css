@@ -1,14 +1,6 @@
-@import url(./profile-img.css);
 @import url(./profile-bio.css);
 @import url(./profile-action.css);
 @import url(./profile-navigation.css);
-
-.profile_header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-}
 
 .profile_header_img {
   position: absolute;
@@ -19,10 +11,9 @@
   z-index: -1;
 }
 
-.profile_message_icon {
+.profile_icon {
   position: absolute;
   background-color: var(--light-white);
-  top: 60px;
   right: 20px;
   border: 1px solid var(--gray);
   border-radius: 32px;
@@ -30,13 +21,10 @@
   filter: invert(100%);
 }
 
+.profile_message_icon {
+  top: 60px;
+}
+
 .profile_bookmark_icon {
-  position: absolute;
-  background-color: var(--light-white);
   top: 110px;
-  right: 20px;
-  border: 1px solid var(--gray);
-  border-radius: 32px;
-  padding: 3px;
-  filter: invert(100%);
 }

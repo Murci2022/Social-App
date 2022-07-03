@@ -1,4 +1,13 @@
-.profile_header h1 {
+@import url(./profile-img.css);
+
+.profile_bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile_bio h1 {
   font-size: 18px;
   color: var(--white);
 }
