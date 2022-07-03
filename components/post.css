@@ -7,12 +7,13 @@ body {
 
 .posts {
   /* RIDGE */
+  height: 1400px;
   border: 5px ridge rgb(128, 47, 47);
   background-color: var(--white);
-  height: 100vh;
 
   width: 500px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -20,11 +21,10 @@ body {
 /* _______________POST_CONTAINER_________________ */
 
 .post-container {
-  position: relative;
   /* DASHED */
-  border: 3px dashed black;
+  border: 10px solid black;
   width: 400px;
-  height: 500px;
+
   padding: 20px 20px;
 
   display: flex;
@@ -87,33 +87,76 @@ body {
 /* -------------------MAIN TEXT----------------------------------------- */
 .main-text {
   border: 2px double black;
-  margin-top: 40px;
+  margin: 40px 20px;
+  width: 360px;
 }
 
 .quote {
-  margin-top: ;
+  margin-top: 0;
   border: 2px dotted black;
   text-align: left;
+}
+
+/* ------------------------------MAIN IMAGE--------------------------------- */
+
+.main-img {
+  border: 1px double blue;
+  width: 360px;
+  margin: 40px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 /* __________________________________FOOTER________________________________ */
 
 .foot {
-  position: absolute;
+  /* DOTTED */
+  margin: 20px 0;
+
   bottom: 0;
-  /* ---DASHED-- */
-  border: 2px dashed black;
+
+  border: 2px dotted black;
   display: flex;
+
   justify-content: space-between;
+  align-items: center;
 
   min-width: 360px;
 }
 
 .foot-leftside {
-  border: 1px solid black;
+  /* DASHED */
+
+  border: 3px dashed black;
+  width: 200px;
+  display: flex;
+  align-items: center;
 }
 
 .foot-rightside {
-  display: inline-block;
+  /* DOUBLE */
+  border: 3px double black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-icon {
+  margin-right: 10px;
+  /* DOTTED */
   border: 1px dotted black;
+  display: flex;
+  align-items: center;
+}
+
+#icon-bookmark {
+  border: 1px solid black;
 }
