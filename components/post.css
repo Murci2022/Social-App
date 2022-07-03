@@ -10,11 +10,11 @@
 .posts {
   color: var(--white);
   /* RIDGE */
-  height: 1400px;
+  /* min-height: 1400px; */
   border: 5px ridge rgb(128, 47, 47);
   background-color: var(--white);
 
-  width: 500px;
+  width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +27,7 @@
   /* DASHED */
   background-color: var(--social-blue);
   border-top: 1px solid rgb(93, 93, 93);
-  width: 400px;
+  width: 375px;
 
   padding: 20px 20px;
 
@@ -188,6 +188,7 @@ img {
 }
 
 p {
+  color: var(--light-gray);
   border: 1px solid black;
 }
 
