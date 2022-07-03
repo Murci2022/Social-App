@@ -1,30 +1,4 @@
+@import url(./profile-header.css);
 @import url(./profile-bio.css);
 @import url(./profile-action.css);
 @import url(./profile-navigation.css);
-
-.profile_header_img {
-  position: absolute;
-  height: 160px;
-  width: 100%;
-  object-fit: cover;
-  object-position: top center;
-  z-index: -1;
-}
-
-.profile_icon {
-  position: absolute;
-  background-color: var(--light-white);
-  right: 20px;
-  border: 1px solid var(--gray);
-  border-radius: 32px;
-  padding: 3px;
-  filter: invert(100%);
-}
-
-.profile_message_icon {
-  top: 60px;
-}
-
-.profile_bookmark_icon {
-  top: 110px;
-}
