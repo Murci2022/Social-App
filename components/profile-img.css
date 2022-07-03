@@ -1,0 +1,11 @@
+.profile_img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top center;
+  background-color: var(--black);
+  border-radius: 50%;
+  border: 2px solid var(--social-pink);
+  padding: 2px;
+  margin: 85px 0 0;
+}
