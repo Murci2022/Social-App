@@ -1,0 +1,35 @@
+.home-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-left: 30px;
+  background: var(--black);
+  color: var(--white);
+  height: auto;
+  width: 100vw;
+}
+
+.message-icon {
+  height: 40px;
+  width: 40px;
+  border: 0.01px solid var(--light-gray);
+  border-radius: 50%;
+  border-width: 2px;
+  padding: 6px;
+  filter: invert(94%) sepia(9%) saturate(28%) hue-rotate(226deg)
+    brightness(102%) contrast(89%);
+  position: relative;
+}
+
+.message-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: solid 0.1px var(--white);
+  background: var(--social-pink);
+  position: absolute;
+  right: 22px;
+  top: 23px;
+}

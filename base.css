@@ -21,9 +21,11 @@ body {
   --white: #ffffff;
   --gray: #323436;
   --light-gray: #727477;
+
+  /* Edit by Stefan: 0-100% */
   --gradient: linear-gradient(
     90deg,
     rgba(246, 46, 142, 1) 0%,
-    rgba(172, 26, 240, 1) 35%
+    rgba(172, 26, 240, 1) 100%
   );
 }
