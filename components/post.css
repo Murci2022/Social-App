@@ -163,6 +163,10 @@
   justify-content: center;
 }
 
+.post-icon {
+  cursor: pointer;
+}
+
 .flex-icon {
   margin-right: 10px;
   /* DOTTED */
@@ -181,4 +185,13 @@
 
 img {
   border: 1px dotted black;
+}
+
+p {
+  border: 1px solid black;
+}
+
+.post-icon-span {
+  border: 2px solid white;
+  display: flex;
 }
