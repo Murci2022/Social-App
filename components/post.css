@@ -2,6 +2,8 @@ body {
   display: flex;
   justify-content: center;
   background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
 }
 /* __________________FEED_________________ */
 
