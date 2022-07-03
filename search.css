@@ -15,7 +15,7 @@
 .search__bar {
   height: 50px;
   width: 800px;
-  border-radius: 20px;
+  border-radius: 32px;
   text-align: left;
   padding: 15px;
   background: var(--gray);
@@ -29,4 +29,39 @@
   right: 25px;
   filter: invert(45%) sepia(8%) saturate(147%) hue-rotate(177deg)
     brightness(97%) contrast(90%);
+}
+
+.search__tags h2 {
+  font-style: unset;
+}
+
+.search__tags ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  list-style: none;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.search__tags {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.search__tags ul li {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 6px 10px 6px 10px;
+  border: 0.5px solid var(--light-gray);
+  border-radius: 18px;
+  width: auto;
+}
+
+#li_all {
+  background-color: var(--social-blue);
 }
