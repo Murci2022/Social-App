@@ -1,6 +1,5 @@
 .nav {
   background-color: var(--black);
-  _height: 80px;
   text-align: center;
   position: fixed;
   bottom: 0px;
