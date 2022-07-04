@@ -28,7 +28,7 @@
 .circle {
   height: 40px;
   width: 40px;
-  background-color: var(--social-pink);
+  background-image: var(--gradient);
   /*var(--gradient);*/
   border-radius: 50%;
   font-size: 1.7rem;
